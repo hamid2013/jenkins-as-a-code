@@ -15,7 +15,7 @@ pipelineJob("${app_name}-pipeline") {
             scm {
                 git {
                     remote {
-                        github("hamid2013/spring-${app_id}", "https")
+                        github("hamid2013/spring-${app_name}", "https")
                     }
                     branch('refs/heads/master')
                 }
