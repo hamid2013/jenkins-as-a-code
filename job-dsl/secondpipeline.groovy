@@ -23,3 +23,4 @@ pipelineJob("${app_name}-pipeline") {
             scriptPath("Jenkinsfile")
         }
     }
+}
