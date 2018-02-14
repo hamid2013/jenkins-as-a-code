@@ -15,8 +15,4 @@ job('petclinic-service') {
     steps {
         shell('./mvnw spring-boot:run')
     }
-    publishers {
-        archiveArtifacts 'build/libs/*.war'
-        archiveJunit 'build/test-results/**/*.xml'
-    }
 }
